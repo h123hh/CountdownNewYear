@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh">
+<html lang="en">
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -7,7 +7,7 @@
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
     
-    <title>2021年倒计时</title>
+    <title>Countdown to 2021</title>
     
     <link href="css/bootstrap.css" rel="stylesheet" />
 	  <link href="css/coming-sssoon.css" rel="stylesheet" />
@@ -27,9 +27,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
              <li>
-                <a href="./en.html"> 
+                <a href="/"> 
                     <i class="fa fa-envelope-o"></i>
-                    English
+                    中文
                 </a>
             </li>
        </ul>
@@ -45,11 +45,11 @@
 
     <div class="container">
           <div class="logo">
-            <div class="time">0天</div>
+            <div class="time">0Day</div>
           </div>
         
         <div class="content">
-            <h4 class="motto">就到2021年了哦</h4>
+            <h4 class="motto">2021 Year</h4>
             <div class="subscribe">
                 <h5 class="info-text">
                     Nyan酱陪大家一起迎接新年(*^▽^*)
@@ -83,7 +83,7 @@
         var s = parseInt(times % 60);
         s = s < 10 ? '0'+ s : s;
         //将剩余的描述给秒的盒子"还剩下"
-        time.innerHTML = "还剩下"+d+"天"+h+"时"+m+"分"+s+"秒";
+        time.innerHTML = "There is"+d+"Day"+h+"hour"+m+"minute"+s+"second";
       }
   </script>
 
